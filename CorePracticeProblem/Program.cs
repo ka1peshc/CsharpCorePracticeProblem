@@ -25,6 +25,10 @@ namespace CorePracticeProblem
             {
                 Console.WriteLine(year + " is not a leap year");
             }
+            //Power of 2
+            PowerOfTwo pot = new PowerOfTwo();
+            pot.printTable();
+
         }
     }
 }
