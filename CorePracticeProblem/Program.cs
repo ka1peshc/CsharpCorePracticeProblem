@@ -43,13 +43,20 @@ namespace CorePracticeProblem
             Console.WriteLine("Enter number");
             int num = Convert.ToInt32(Console.ReadLine());
             eo.checkEvenOrOdd(num);
-            */
+            
             //Check Alphabet is vowel or consonent
             Console.WriteLine("Enter an alphabet to check if it is vowel or consonent");
             String alpha = Console.ReadLine();
             VowelOrConsonent vc = new VowelOrConsonent();
             vc.checkVowelOrConsonent(alpha);
-
+            */
+            //Check for largest number
+            Console.WriteLine("Enter three number");
+            int number1 = Convert.ToInt32(Console.ReadLine());
+            int number2 = Convert.ToInt32(Console.ReadLine());
+            int number3 = Convert.ToInt32(Console.ReadLine());
+            FindLargestNum fln = new FindLargestNum();
+            fln.findLargestNumber(number1, number2, number3);
         }
     }
 }
