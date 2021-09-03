@@ -28,6 +28,9 @@ namespace CorePracticeProblem
             //Power of 2
             PowerOfTwo pot = new PowerOfTwo();
             pot.printTable();
+            //Harmonic
+            HarmonicNumber hr = new HarmonicNumber();
+            hr.calculateHarmonicNumber();
 
         }
     }
