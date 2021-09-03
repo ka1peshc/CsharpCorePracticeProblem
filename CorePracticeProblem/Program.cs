@@ -49,7 +49,7 @@ namespace CorePracticeProblem
             String alpha = Console.ReadLine();
             VowelOrConsonent vc = new VowelOrConsonent();
             vc.checkVowelOrConsonent(alpha);
-            */
+            
             //Check for largest number
             Console.WriteLine("Enter three number");
             int number1 = Convert.ToInt32(Console.ReadLine());
@@ -57,6 +57,14 @@ namespace CorePracticeProblem
             int number3 = Convert.ToInt32(Console.ReadLine());
             FindLargestNum fln = new FindLargestNum();
             fln.findLargestNumber(number1, number2, number3);
+            */
+            //Finding Quotient and Remainder
+            Console.WriteLine("Enter divident and divisor respectivily");
+            int divident = Convert.ToInt32(Console.ReadLine());
+            int divisor = Convert.ToInt32(Console.ReadLine());
+            QuotientAndRemainder qar = new QuotientAndRemainder();
+            qar.fetchQuotientAndRemainder(divident,divisor);
+
         }
     }
 }
