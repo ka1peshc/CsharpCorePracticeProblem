@@ -31,6 +31,14 @@ namespace CorePracticeProblem
             //Harmonic
             HarmonicNumber hr = new HarmonicNumber();
             hr.calculateHarmonicNumber();
+            
+            //Swap number
+            Console.WriteLine("Enter two number");
+            int num1 = Convert.ToInt32(Console.ReadLine());
+            int num2 = Convert.ToInt32(Console.ReadLine());
+            SwapNumber sn = new SwapNumber();
+            sn.doSwap(num1, num2);
+            
 
         }
     }
