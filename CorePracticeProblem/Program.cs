@@ -57,13 +57,19 @@ namespace CorePracticeProblem
             int number3 = Convert.ToInt32(Console.ReadLine());
             FindLargestNum fln = new FindLargestNum();
             fln.findLargestNumber(number1, number2, number3);
-            */
+            
             //Finding Quotient and Remainder
             Console.WriteLine("Enter divident and divisor respectivily");
             int divident = Convert.ToInt32(Console.ReadLine());
             int divisor = Convert.ToInt32(Console.ReadLine());
             QuotientAndRemainder qar = new QuotientAndRemainder();
             qar.fetchQuotientAndRemainder(divident,divisor);
+            */
+            //finding prime factors of given number
+            Console.WriteLine("Enter number to check prime factors");
+            int numberP=Convert.ToInt32(Console.ReadLine());
+            PrimeFactor pf = new PrimeFactor();
+            pf.checkPrimeFactors(numberP);
 
         }
     }
