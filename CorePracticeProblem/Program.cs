@@ -37,13 +37,18 @@ namespace CorePracticeProblem
             int num2 = Convert.ToInt32(Console.ReadLine());
             SwapNumber sn = new SwapNumber();
             sn.doSwap(num1, num2);
-            */
+            
             //Even or odd
             EvenOrOdd eo = new EvenOrOdd();
             Console.WriteLine("Enter number");
             int num = Convert.ToInt32(Console.ReadLine());
             eo.checkEvenOrOdd(num);
-
+            */
+            //Check Alphabet is vowel or consonent
+            Console.WriteLine("Enter an alphabet to check if it is vowel or consonent");
+            String alpha = Console.ReadLine();
+            VowelOrConsonent vc = new VowelOrConsonent();
+            vc.checkVowelOrConsonent(alpha);
 
         }
     }
